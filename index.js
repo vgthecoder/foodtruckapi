@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
 });
 
-app.get('/foodtruck', (req, res) => {
+app.get('/', (req, res) => {
 	if (req.query.type == "e") {res.send(searchExact(req.query.query)); return;}
 	if (req.query.type == "i") {res.send(json); return;}
 	if (req.query.type == "l") {res.send(json); return;}

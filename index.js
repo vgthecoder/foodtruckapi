@@ -8,14 +8,32 @@ fs.readFile('book.json', 'utf8', (err, data) => {json = JSON.parse(data);});
 
 function searchExact(query) {
 	if (json[caps(query)] != undefined) {
-		return JSON.parse(`{"err":"", "results": "1", "dishes": {"${caps(query)}":${JSON.stringify(json[caps(query)])}}}`);
+		return {err: "", results: 1, dishes: json[caps(query)]};
+		// Thanks Gurglemurgle for improving the return statement here!
 	} else {
-		return JSON.parse('{"err":"Could not find that dish"}');
+		return {err:"Could not find that dish"};
 	}
 }
 
 function searchAll() {
-	return JSON.parse(`{"err":"", "results": "${Object.keys(json).length}", "dishes":${JSON.stringify(json)}}`);
+	return {err: "", results: Object.keys(json).length, dishes: json};
+}
+
+function searchName(query) {
+	// Thanks Gurglemurgle for improving this whole code to make it work!
+    let results = {}
+    var count = 0;
+    for (var item in json) {
+        if (item.includes(caps(query))) {
+            count++
+            results[item] = json[item];
+        }
+    }
+    if (count > 0) {
+        return {err: "", results: count, dishes: results};
+    } else {
+        return {err: "Could not find that dish"};
+    }
 }
 
 function caps(s) {
@@ -34,14 +52,14 @@ function caps(s) {
 }
 
 app.listen(port, () => {
-  console.log(`Example app listening on port ${port}`)
+	console.log(`Listening on port ${port}`)
 });
 
 app.get('/', (req, res) => {
 	if (req.query.type == "e") {res.send(searchExact(req.query.query)); return;}
 	if (req.query.type == "i") {res.send(json); return;}
 	if (req.query.type == "l") {res.send(json); return;}
-	if (req.query.type == "n") {res.send(json); return;}
+	if (req.query.type == "n") {res.send(searchName(req.query.query)); return;}
 	if (req.query.type == "a") {res.send(searchAll()); return;}
-	res.send(JSON.parse(`{"err":"Invalid type specified"}`));
+	res.send({err:"Invalid type or No type was specified"});
 });

@@ -67,7 +67,7 @@ function searchLevel(query) {
     var results = {}
     var count = 0;
     for (var item in json) {
-		if (query != "I" && query != "II" && query != "III" && json[item]["cat"].includes(query) || json[item]["cat"] == query) {
+		if (caps(query) != "I" && caps(query) != "II" && caps(query) != "III" && json[item]["cat"].includes(query) || json[item]["cat"] == caps(query)) {
 			count++
 			results[item] = json[item];
 		}

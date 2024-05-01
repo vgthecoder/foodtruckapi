@@ -1,0 +1,14 @@
+{
+  "name": "foodtruckapi",
+  "version": "1.0.0",
+  "description": "An api for MOV's food truck discord bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vg_coder",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}

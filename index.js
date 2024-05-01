@@ -21,7 +21,10 @@ function searchAll() {
 
 function searchName(query) {
 	// Thanks Gurglemurgle for improving this whole code to make it work!
-    let results = {}
+	if (query == "") {
+		return {err: "Query was not defined"};
+	}
+    var results = {}
     var count = 0;
     for (var item in json) {
         if (item.includes(caps(query))) {
@@ -36,7 +39,48 @@ function searchName(query) {
     }
 }
 
+function searchIngredient(query) {
+	// Copy Pasted from searchName and edited
+	if (query == "") {
+		return {err: "Query was not defined"};
+	}
+    var results = {}
+    var count = 0;
+    for (var item in json) {
+        if (json[item]["ing1"].includes(caps(query)) || json[item]["ing2"].includes(caps(query)) || json[item]["ing3"].includes(caps(query))) {
+            count++
+            results[item] = json[item];
+        }
+    }
+    if (count > 0) {
+        return {err: "", results: count, dishes: results};
+    } else {
+        return {err: "Could not find that dish, or query was not defined"};
+    }
+}
+
+function searchLevel(query) {
+	// Copy Pasted from searchName and edited
+	if (query == "") {
+		return {err: "Query was not defined"};
+	}
+    var results = {}
+    var count = 0;
+    for (var item in json) {
+		if (query != "I" && query != "II" && query != "III" && json[item]["cat"].includes(query) || json[item]["cat"] == query) {
+			count++
+			results[item] = json[item];
+		}
+    }
+    if (count > 0) {
+        return {err: "", results: count, dishes: results};
+    } else {
+        return {err: "Could not find that dish, or query was not defined"};
+    }
+}
+
 function caps(s) {
+	if (s == undefined || s == "") {return s;}
 	var tmp = s.split(' ');
 	var tmp2 = 0;
 	var tmp3 = "";
@@ -56,10 +100,10 @@ app.listen(port, () => {
 });
 
 app.get('/', (req, res) => {
-	if (req.query.type == "e") {res.send(searchExact(req.query.query)); return;}
-	if (req.query.type == "i") {res.send(json); return;}
-	if (req.query.type == "l") {res.send(json); return;}
-	if (req.query.type == "n") {res.send(searchName(req.query.query)); return;}
 	if (req.query.type == "a") {res.send(searchAll()); return;}
+	if (req.query.type == "e") {res.send(searchExact(req.query.query)); return;}
+	if (req.query.type == "i") {res.send(searchIngredient(req.query.query)); return;}
+	if (req.query.type == "l") {res.send(searchLevel(req.query.query)); return;}
+	if (req.query.type == "n") {res.send(searchName(req.query.query)); return;}
 	res.send({err:"Invalid type or No type was specified"});
 });

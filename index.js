@@ -43,5 +43,5 @@ app.get('/', (req, res) => {
 	if (req.query.type == "l") {res.send(json); return;}
 	if (req.query.type == "n") {res.send(json); return;}
 	if (req.query.type == "a") {res.send(searchAll()); return;}
-	res.send('{"err":"Invalid type specified"}')
+	res.send(JSON.parse(`{"err":"Invalid type specified"}`));
 });

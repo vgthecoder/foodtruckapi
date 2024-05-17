@@ -29,6 +29,16 @@
 		"ing3": "",
 		"ico3": "" 
 	},
+	"Lemon Icing": {
+		"ico0": "❓",
+		"cat": "I",
+		"ing1": "Milk",
+		"ico1": "🥛",
+		"ing2": "Sugar",
+		"ico2": "❓",
+		"ing3": "Lemon",
+		"ico3": "🍋" 
+	},
 	"Boba Tea": {
 		"ico0": "❓",
 		"cat": "Exotic",
@@ -148,6 +158,16 @@
 		"ico2": "🍨",
 		"ing3": "",
 		"ico3": "" 
+	},
+	"Vanilla Ice Cream": {
+		"ico0": "❓",
+		"cat": "Basic",
+		"ing1": "Milk",
+		"ico1": "🥛",
+		"ing2": "Sugar",
+		"ico2": "❓",
+		"ing3": "Ice",
+		"ico3": "🧊" 
 	},
 	"Cheese Fondue": {
 		"ico0": "❓",
@@ -379,6 +399,56 @@
 		"ing3": "",
 		"ico3": "" 
 	},
+	"Vanilla Cupcake": {
+		"ico0": "❓",
+		"cat": "II",
+		"ing1": "Batter",
+		"ico1": "❓",
+		"ing2": "Icing",
+		"ico2": "❓",
+		"ing3": "",
+		"ico3": "" 
+	},
+	"Pizza": {
+		"ico0": "❓",
+		"cat": "II",
+		"ing1": "Tomato Sauce",
+		"ico1": "❓",
+		"ing2": "Cheese",
+		"ico2": "🧀",
+		"ing3": "Dough",
+		"ico3": "❓" 
+	},
+	"Olive Pizza": {
+		"ico0": "❓",
+		"cat": "III",
+		"ing1": "Olives",
+		"ico1": "❓",
+		"ing2": "Pizza",
+		"ico2": "❓",
+		"ing3": "",
+		"ico3": "" 
+	},
+	"Ice-Cold Lemonade": {
+		"ico0": "❓",
+		"cat": "II",
+		"ing1": "Ice",
+		"ico1": "🧊",
+		"ing2": "Lemonade",
+		"ico2": "",
+		"ing3": "",
+		"ico3": "" 
+	},
+	"Hot Dog": {
+		"ico0": "🌭",
+		"cat": "II",
+		"ing1": "Meat",
+		"ico1": "🥩",
+		"ing2": "Tomato Sauce",
+		"ico2": "❓",
+		"ing3": "Bread",
+		"ico3": "🍞" 
+	},
 	"Chocolate Donut": {
 		"ico0": "🍩",
 		"cat": "II",
@@ -458,5 +528,75 @@
 		"ico2": "❓",
 		"ing3": "Icing",
 		"ico3": "❓" 
+	},
+	"Syrup": {
+		"ico0": "❓",
+		"cat": "Basic",
+		"ing1": "Sugar",
+		"ico1": "❓",
+		"ing2": "Water",
+		"ico2": "🚰",
+		"ing3": "",
+		"ico3": "" 
+	},
+	"Butter": {
+		"ico0": "🧈",
+		"cat": "Basic",
+		"ing1": "Milk",
+		"ico1": "🥛",
+		"ing2": "Milk",
+		"ico2": "🥛",
+		"ing3": "",
+		"ico3": "" 
+	},
+	"Fried Meat": {
+		"ico0": "❓",
+		"cat": "I",
+		"ing1": "Flour",
+		"ico1": "❓",
+		"ing2": "Egg",
+		"ico2": "🥚",
+		"ing3": "Meat",
+		"ico3": "🥩" 
+	},
+	"Tea": {
+		"ico0": "🍵",
+		"cat": "Exotic",
+		"ing1": "Water",
+		"ico1": "🚰",
+		"ing2": "Tea Leaves",
+		"ico2": "🍂",
+		"ing3": "",
+		"ico3": "" 
+	},
+	"Mocha": {
+		"ico0": "🍵",
+		"cat": "Exotic",
+		"ing1": "Milk",
+		"ico1": "🥛",
+		"ing2": "Chocolate",
+		"ico2": "🍫",
+		"ing3": "Coffee",
+		"ico3": "☕" 
+	},
+	"Packed Ice": {
+		"ico0": "❓",
+		"cat": "Secret",
+		"ing1": "Ice",
+		"ico1": "🧊",
+		"ing2": "Ice",
+		"ico2": "🧊",
+		"ing3": "",
+		"ico3": "" 
+	},
+	"Blue Ice": {
+		"ico0": "❓",
+		"cat": "Secret",
+		"ing1": "Packed Ice",
+		"ico1": "❓",
+		"ing2": "Packed Ice",
+		"ico2": "❓",
+		"ing3": "",
+		"ico3": "" 
 	}
 }

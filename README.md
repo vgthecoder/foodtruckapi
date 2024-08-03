@@ -12,10 +12,10 @@ Example (Uses modified API code to do the work locally): https://vgcoder.w3space
 
 Completion:
 * ✅ Basic   : 16/16
-* ❌ Level 1 : 32/33
-* ❌ Level 2 : 12/32
-* ❌ Level 3 : 6/12 
-* ❌ Exotic  : 3/31
-* ❌ Secret  : 2/??
+* ✅ Level 1 : 33/33
+* ✅ Level 2 : 32/32
+* ✅ Level 3 : 12/12 
+* ✅ Exotic  : 31/31
+* ❌ Secret  : 9/??
 
 Contact me via the issues page.

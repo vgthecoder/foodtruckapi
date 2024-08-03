@@ -1,5 +1,6 @@
 Problems:
-* Book.js doesn't contain all the recipes.
+* Book.json doesn't contain all the recipes.
+* Book.json might have outdated recipes.
 * Endpoint is down.
 * Needs update new auto-caps function
 

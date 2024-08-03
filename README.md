@@ -16,6 +16,6 @@ Completion:
 * ✅ Exotic  : 31/31
 * ❌ Secret  : 9/??
 
-Contact me via the issues page of this repo.
+You can contact me via the issues page of this repo.
 
 Thank you, [@kroften4](https://github.com/kroften4) for adding and organizing the recipes!

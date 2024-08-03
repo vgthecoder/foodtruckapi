@@ -5,6 +5,8 @@ Problems:
 
 Docs: https://vgcoder.w3spaces.com/projects/ft-api-docs.html
 
+Example (Uses modified API code to do the work locally): https://vgcoder.w3spaces.com/projects/lib.html
+
 Completion:
 * ✅ Basic   : 16/16
 * ❌ Level 1 : 32/33

@@ -4,7 +4,7 @@ Problems:
 * Book.json doesn't contain all the recipes.
 * Book.json might have outdated recipes.
 * Endpoint is down.
-* Needs update new auto-caps function
+* Needs update new auto-caps function. (Updated, but untested)
 
 Docs: https://vgcoder.w3spaces.com/projects/ft-api-docs.html
 

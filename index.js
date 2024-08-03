@@ -24,19 +24,19 @@ function searchName(query) {
 	if (query == "") {
 		return {err: "Query was not defined"};
 	}
-    var results = {}
-    var count = 0;
-    for (var item in json) {
-        if (item.includes(caps(query))) {
-            count++
-            results[item] = json[item];
-        }
-    }
-    if (count > 0) {
-        return {err: "", results: count, dishes: results};
-    } else {
-        return {err: "Could not find that dish"};
-    }
+	var results = {}
+	var count = 0;
+	for (var item in json) {
+		if (item.includes(caps(query))) {
+			count++
+			results[item] = json[item];
+		}
+	}
+	if (count > 0) {
+		return {err: "", results: count, dishes: results};
+	} else {
+		return {err: "Could not find that dish"};
+	}
 }
 
 function searchIngredient(query) {
@@ -44,19 +44,19 @@ function searchIngredient(query) {
 	if (query == "") {
 		return {err: "Query was not defined"};
 	}
-    var results = {}
-    var count = 0;
-    for (var item in json) {
-        if (json[item]["ing1"].includes(caps(query)) || json[item]["ing2"].includes(caps(query)) || json[item]["ing3"].includes(caps(query))) {
-            count++
-            results[item] = json[item];
-        }
-    }
-    if (count > 0) {
-        return {err: "", results: count, dishes: results};
-    } else {
-        return {err: "Could not find that dish, or query was not defined"};
-    }
+	var results = {}
+	var count = 0;
+	for (var item in json) {
+		if (json[item]["ing1"].includes(caps(query)) || json[item]["ing2"].includes(caps(query)) || json[item]["ing3"].includes(caps(query))) {
+			count++
+			results[item] = json[item];
+		}
+	}
+	if (count > 0) {
+		return {err: "", results: count, dishes: results};
+	} else {
+		return {err: "Could not find that dish, or query was not defined"};
+	}
 }
 
 function searchLevel(query) {
@@ -64,34 +64,32 @@ function searchLevel(query) {
 	if (query == "") {
 		return {err: "Query was not defined"};
 	}
-    var results = {}
-    var count = 0;
-    for (var item in json) {
+	var results = {}
+	var count = 0;
+	for (var item in json) {
 		if (caps(query) != "I" && caps(query) != "II" && caps(query) != "III" && json[item]["cat"].includes(query) || json[item]["cat"] == caps(query)) {
 			count++
 			results[item] = json[item];
 		}
-    }
-    if (count > 0) {
-        return {err: "", results: count, dishes: results};
-    } else {
-        return {err: "Could not find that dish, or query was not defined"};
-    }
+	}
+	if (count > 0) {
+		return {err: "", results: count, dishes: results};
+	} else {
+		return {err: "Could not find that dish, or query was not defined"};
+	}
 }
 
 function caps(s) {
-	if (s == undefined || s == "") {return s;}
-	var tmp = s.split(' ');
-	var tmp2 = 0;
-	var tmp3 = "";
-	if (s.toLowerCase() == "ii" || s.toLowerCase() == "iii") {
+	if (s.toLowerCase() == "i" || s.toLowerCase() == "ii" || s.toLowerCase() == "iii") {
 		return s.toUpperCase();
 	}
 	else {
-		for (var tmp2 in tmp) {
-			tmp3 += " " + tmp[tmp2][0].toUpperCase() + tmp[tmp2].slice(1);
-		}
-		return tmp3.slice(1);
+		// Thank you some guy on stackoverflow
+		return s
+			.toLowerCase()
+			.split(' ')
+			.map(word => word.charAt(0).toUpperCase() + word.slice(1))
+			.join(' ');
 	}
 }
 

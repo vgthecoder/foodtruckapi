@@ -913,9 +913,9 @@
         "ico0": "🏭",
         "cat": "Secret",
         "ing1": "Uranium",
-        "ico1": "❓",
+        "ico1": "☢️",
         "ing2": "Uranium",
-        "ico2": "❓",
+        "ico2": "☢️",
         "ing3": "",
         "ico3": ""
     },
@@ -1280,7 +1280,7 @@
         "ico3": ""
     },
     "Uranium": {
-        "ico0": "❓",
+        "ico0": "☢️",
         "cat": "Secret",
         "ing1": "Lemon Cake",
         "ico1": "❓",

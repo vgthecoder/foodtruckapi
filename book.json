@@ -1,469 +1,39 @@
 {
-    "Croissant": {
-        "ico0": "🥐",
-        "cat": "II",
-        "ing1": "Butter",
-        "ico1": "🧈",
-        "ing2": "Butter",
-        "ico2": "🧈",
-        "ing3": "Dough",
-        "ico3": "❓"
-    },
-    "Lemon Cake": {
-        "ico0": "❓",
-        "cat": "III",
-        "ing1": "Batter",
-        "ico1": "❓",
-        "ing2": "Batter",
-        "ico2": "❓",
-        "ing3": "Lemon Icing",
-        "ico3": "❓"
-    },
-    "Icing": {
-        "ico0": "❓",
-        "cat": "Basic",
-        "ing1": "Milk",
-        "ico1": "🥛",
-        "ing2": "Sugar",
-        "ico2": "❓",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Lemon Icing": {
-        "ico0": "❓",
-        "cat": "I",
-        "ing1": "Milk",
-        "ico1": "🥛",
-        "ing2": "Sugar",
-        "ico2": "❓",
-        "ing3": "Lemon",
-        "ico3": "🍋"
-    },
-    "Boba Tea": {
-        "ico0": "❓",
-        "cat": "Exotic",
-        "ing1": "Milk",
-        "ico1": "🥛",
-        "ing2": "Tea",
-        "ico2": "🍵",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Dough": {
-        "ico0": "❓",
-        "cat": "Basic",
-        "ing1": "Flour",
-        "ico1": "❓",
-        "ing2": "Water",
-        "ico2": "🚰",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Flan": {
-        "ico0": "🍮",
-        "cat": "I",
-        "ing1": "Milk",
-        "ico1": "🥛",
-        "ing2": "Egg",
-        "ico2": "🥚",
-        "ing3": "Caramel",
-        "ico3": "🧱"
-    },
-    "Popcorn": {
-        "ico0": "🍿",
-        "cat": "Exotic",
-        "ing1": "Butter",
-        "ico1": "🧈",
-        "ing2": "Corn",
-        "ico2": "🌽",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Lemon Ice Pop": {
+    "Alfredo": {
         "ico0": "❓",
         "cat": "II",
-        "ing1": "Sugar",
-        "ico1": "❓",
-        "ing2": "Lemon",
-        "ico2": "🍋",
-        "ing3": "Ice",
-        "ico3": "🧊"
-    },
-    "Fish Nigiri": {
-        "ico0": "❓",
-        "cat": "Basic",
-        "ing1": "Fish",
-        "ico1": "🐟",
-        "ing2": "Rice",
-        "ico2": "🍚",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Chocolate Icing": {
-        "ico0": "❓",
-        "cat": "I",
         "ing1": "Milk",
         "ico1": "🥛",
-        "ing2": "Sugar",
-        "ico2": "❓",
-        "ing3": "Chocolate",
-        "ico3": "🍫"
-    },
-    "Burger": {
-        "ico0": "🍔",
-        "cat": "II",
-        "ing1": "Meat",
-        "ico1": "🥩",
-        "ing2": "Bread",
-        "ico2": "🍞",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Rice Ball": {
-        "ico0": "🍙",
-        "cat": "I",
-        "ing1": "Rice",
-        "ico1": "🍚",
-        "ing2": "Rice",
-        "ico2": "🍚",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Caramel": {
-        "ico0": "🧱",
-        "cat": "Basic",
-        "ing1": "Sugar",
-        "ico1": "❓",
-        "ing2": "Sugar",
-        "ico2": "❓",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Tomato Sauce": {
-        "ico0": "❓",
-        "cat": "Basic",
-        "ing1": "Tomato",
-        "ico1": "🍅",
-        "ing2": "Tomato",
-        "ico2": "🍅",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Lemon Ice Cream": {
-        "ico0": "❓",
-        "cat": "II",
-        "ing1": "Lemon",
-        "ico1": "🍋",
-        "ing2": "Ice Cream",
-        "ico2": "🍨",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Vanilla Ice Cream": {
-        "ico0": "❓",
-        "cat": "I",
-        "ing1": "Milk",
-        "ico1": "🥛",
-        "ing2": "Sugar",
-        "ico2": "❓",
-        "ing3": "Ice",
-        "ico3": "🧊"
-    },
-    "Cheese Fondue": {
-        "ico0": "❓",
-        "cat": "II",
-        "ing1": "Cheese",
-        "ico1": "🧀",
         "ing2": "Cheese",
         "ico2": "🧀",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Dumpling": {
-        "ico0": "🥟",
-        "cat": "I",
-        "ing1": "Meat",
-        "ico1": "🥩",
-        "ing2": "Dough",
-        "ico2": "❓",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Ice": {
-        "ico0": "🧊",
-        "cat": "Basic",
-        "ing1": "Water",
-        "ico1": "🚰",
-        "ing2": "Water",
-        "ico2": "🚰",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Caramel Apple": {
-        "ico0": "❓",
-        "cat": "Exotic",
-        "ing1": "Caramel",
-        "ico1": "🧱",
-        "ing2": "Apple",
-        "ico2": "🍎",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Pancakes": {
-        "ico0": "🥞",
-        "cat": "II",
-        "ing1": "Butter",
-        "ico1": "🧈",
-        "ing2": "Syrup",
-        "ico2": "❓",
-        "ing3": "Batter",
+        "ing3": "Noodles",
         "ico3": "❓"
     },
-    "Broth": {
+    "Anchovy Pizza": {
         "ico0": "❓",
-        "cat": "Basic",
-        "ing1": "Meat",
-        "ico1": "🥩",
-        "ing2": "Water",
-        "ico2": "🚰",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Pepperoni Pizza": {
-        "ico0": "🍕",
         "cat": "III",
-        "ing1": "Meat",
-        "ico1": "🥩",
+        "ing1": "Fish",
+        "ico1": "🐟",
         "ing2": "Pizza",
         "ico2": "❓",
         "ing3": "",
         "ico3": ""
     },
-    "Salad": {
-        "ico0": "🥗",
-        "cat": "I",
-        "ing1": "Tomato",
-        "ico1": "🍅",
-        "ing2": "Lettuce",
-        "ico2": "🥬",
-        "ing3": "Olive Oil",
-        "ico3": "❓"
-    },
-    "Uranium": {
-        "ico0": "☢",
-        "cat": "Secret",
-        "ing1": "Lemon Cake",
+    "Apple Juice": {
+        "ico0": "❓",
+        "cat": "Exotic",
+        "ing1": "Sugar",
         "ico1": "❓",
-        "ing2": "Lemon Cake",
-        "ico2": "❓",
-        "ing3": "",
-        "ico3": ""
+        "ing2": "Water",
+        "ico2": "🚰",
+        "ing3": "Apple",
+        "ico3": "🍎"
     },
-    "Le Fish Au Chocolate": {
+    "Apple Pie": {
         "ico0": "❓",
-        "cat": "Secret",
-        "ing1": "Fish",
-        "ico1": "🐟",
-        "ing2": "Chocolate",
-        "ico2": "🍫",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Bacon": {
-        "ico0": "🥓",
-        "cat": "Basic",
-        "ing1": "Meat",
-        "ico1": "🥩",
-        "ing2": "Meat",
-        "ico2": "🥩",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Baguette": {
-        "ico0": "🥖",
-        "cat": "II",
-        "ing1": "Bread",
-        "ico1": "🍞",
-        "ing2": "Bread",
-        "ico2": "🍞",
-        "ing3": "Bread",
-        "ico3": "🍞"
-    },
-    "Curry": {
-        "ico0": "🍛",
-        "cat": "I",
-        "ing1": "Spices",
-        "ico1": "🧂",
-        "ing2": "Rice",
-        "ico2": "🍚",
-        "ing3": "Broth",
-        "ico3": "❓"
-    },
-    "Ramen": {
-        "ico0": "🍜",
-        "cat": "II",
-        "ing1": "Broth",
-        "ico1": "❓",
-        "ing2": "Noodles",
-        "ico2": "❓",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Olive Oil": {
-        "ico0": "❓",
-        "cat": "Basic",
-        "ing1": "Olives",
-        "ico1": "❓",
-        "ing2": "Olives",
-        "ico2": "❓",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Egg Nigiri": {
-        "ico0": "❓",
-        "cat": "Basic",
-        "ing1": "Egg",
-        "ico1": "🥚",
-        "ing2": "Rice",
-        "ico2": "🍚",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Basic Taco": {
-        "ico0": "❓",
-        "cat": "II",
-        "ing1": "Meat",
-        "ico1": "🥩",
-        "ing2": "Tortilla",
-        "ico2": "❓",
-        "ing3": "Cheese",
-        "ico3": "🧀"
-    },
-    "Tortilla Chips": {
-        "ico0": "❓",
-        "cat": "I",
-        "ing1": "Tortilla",
-        "ico1": "❓",
-        "ing2": "Tortilla",
-        "ico2": "❓",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Tortilla": {
-        "ico0": "❓",
-        "cat": "Basic",
-        "ing1": "Flour",
-        "ico1": "❓",
-        "ing2": "Flour",
-        "ico2": "❓",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Oden": {
-        "ico0": "❓",
-        "cat": "I",
-        "ing1": "Egg",
-        "ico1": "🥚",
-        "ing2": "Meat",
-        "ico2": "🥩",
-        "ing3": "Fish",
-        "ico3": "🐟"
-    },
-    "Chocolate Fondue": {
-        "ico0": "❓",
-        "cat": "I",
-        "ing1": "Milk",
-        "ico1": "🥛",
-        "ing2": "Chocolate",
-        "ico2": "🍫",
-        "ing3": "Chocolate",
-        "ico3": "🍫"
-    },
-    "Bread": {
-        "ico0": "🍞",
-        "cat": "I",
-        "ing1": "Flour",
-        "ico1": "❓",
-        "ing2": "Dough",
-        "ico2": "❓",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Lemon Cupcake": {
-        "ico0": "❓",
-        "cat": "II",
-        "ing1": "Batter",
-        "ico1": "❓",
-        "ing2": "Lemon Icing",
-        "ico2": "❓",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Vanilla Cupcake": {
-        "ico0": "❓",
-        "cat": "II",
-        "ing1": "Batter",
-        "ico1": "❓",
-        "ing2": "Icing",
-        "ico2": "❓",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Pizza": {
-        "ico0": "❓",
-        "cat": "II",
-        "ing1": "Tomato Sauce",
-        "ico1": "❓",
-        "ing2": "Cheese",
-        "ico2": "🧀",
-        "ing3": "Dough",
-        "ico3": "❓"
-    },
-    "Olive Pizza": {
-        "ico0": "❓",
-        "cat": "III",
-        "ing1": "Olives",
-        "ico1": "❓",
-        "ing2": "Pizza",
-        "ico2": "❓",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Ice-Cold Lemonade": {
-        "ico0": "❓",
-        "cat": "II",
-        "ing1": "Ice",
-        "ico1": "🧊",
-        "ing2": "Lemonade",
-        "ico2": "",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Hot Dog": {
-        "ico0": "🌭",
-        "cat": "II",
-        "ing1": "Meat",
-        "ico1": "🥩",
-        "ing2": "Tomato Sauce",
-        "ico2": "❓",
-        "ing3": "Bread",
-        "ico3": "🍞"
-    },
-    "Chocolate Donut": {
-        "ico0": "🍩",
-        "cat": "II",
-        "ing1": "Dough",
-        "ico1": "❓",
-        "ing2": "Chocolate Icing",
-        "ico2": "❓",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Lemon Pie": {
-        "ico0": "❓",
-        "cat": "II",
-        "ing1": "Lemon",
-        "ico1": "🍋",
+        "cat": "Exotic",
+        "ing1": "Apple",
+        "ico1": "🍎",
         "ing2": "Pie Crust",
         "ico2": "❓",
         "ing3": "",
@@ -479,95 +49,75 @@
         "ing3": "Onion",
         "ico3": "🧅"
     },
-    "Anchovy Pizza": {
+    "Avocado Roll": {
         "ico0": "❓",
-        "cat": "III",
-        "ing1": "Fish",
-        "ico1": "🐟",
-        "ing2": "Pizza",
+        "cat": "Exotic",
+        "ing1": "Avocado",
+        "ico1": "🥑",
+        "ing2": "Egg Nigiri",
         "ico2": "❓",
         "ing3": "",
         "ico3": ""
     },
-    "Sashimi": {
-        "ico0": "❓",
+    "Bacon": {
+        "ico0": "🥓",
         "cat": "Basic",
-        "ing1": "Fish",
-        "ico1": "🍋",
-        "ing2": "Fish",
-        "ico2": "🐟",
+        "ing1": "Meat",
+        "ico1": "🥩",
+        "ing2": "Meat",
+        "ico2": "🥩",
         "ing3": "",
         "ico3": ""
     },
-    "Cake": {
-        "ico0": "❓",
+    "Bagel": {
+        "ico0": "🥯",
         "cat": "III",
-        "ing1": "Batter",
-        "ico1": "❓",
-        "ing2": "Batter",
+        "ing1": "Bread",
+        "ico1": "🍞",
+        "ing2": "Cream Cheese",
         "ico2": "❓",
-        "ing3": "Icing",
-        "ico3": "❓"
+        "ing3": "",
+        "ico3": ""
     },
-    "Syrup": {
+    "Baguette": {
+        "ico0": "🥖",
+        "cat": "II",
+        "ing1": "Bread",
+        "ico1": "🍞",
+        "ing2": "Bread",
+        "ico2": "🍞",
+        "ing3": "Bread",
+        "ico3": "🍞"
+    },
+    "Basic Taco": {
         "ico0": "❓",
-        "cat": "Basic",
-        "ing1": "Sugar",
-        "ico1": "❓",
-        "ing2": "Water",
-        "ico2": "🚰",
-        "ing3": "",
-        "ico3": ""
+        "cat": "II",
+        "ing1": "Meat",
+        "ico1": "🥩",
+        "ing2": "Tortilla",
+        "ico2": "❓",
+        "ing3": "Cheese",
+        "ico3": "🧀"
     },
-    "Butter": {
-        "ico0": "🧈",
-        "cat": "Basic",
-        "ing1": "Milk",
-        "ico1": "🥛",
-        "ing2": "Milk",
-        "ico2": "🥛",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Fried Chicken": {
+    "Batter": {
         "ico0": "❓",
         "cat": "I",
         "ing1": "Flour",
         "ico1": "❓",
         "ing2": "Egg",
         "ico2": "🥚",
-        "ing3": "Meat",
-        "ico3": "🥩"
+        "ing3": "Olive Oil",
+        "ico3": "❓"
     },
-    "Tea": {
-        "ico0": "🍵",
+    "Beer": {
+        "ico0": "🍺",
         "cat": "Exotic",
-        "ing1": "Water",
-        "ico1": "🚰",
-        "ing2": "Tea Leaves",
-        "ico2": "🍂",
-        "ing3": "",
-        "ico3": ""
-    },
-    "Mocha": {
-        "ico0": "🍵",
-        "cat": "Exotic",
-        "ing1": "Milk",
-        "ico1": "🥛",
-        "ing2": "Chocolate",
-        "ico2": "🍫",
-        "ing3": "Coffee",
-        "ico3": "☕"
-    },
-    "Packed Ice": {
-        "ico0": "❓",
-        "cat": "Secret",
-        "ing1": "Ice",
-        "ico1": "🧊",
-        "ing2": "Ice",
-        "ico2": "🧊",
-        "ing3": "",
-        "ico3": ""
+        "ing1": "Flour",
+        "ico1": "❓",
+        "ing2": "Water",
+        "ico2": "🚰",
+        "ing3": "Mushroom",
+        "ico3": "🍄"
     },
     "Blue Ice": {
         "ico0": "❓",
@@ -579,204 +129,1204 @@
         "ing3": "",
         "ico3": ""
     },
-	"Shrimp": {
-		"ico0": "🦐",
-		"cat": "Basic",
-		"ing1": "Fish",
-		"ico1": "🐟",
-		"ing2": "Water",
-		"ico2": "🚰",
-		"ing3": "",
-		"ico3": "" 
-	},
-	"Boiled Egg": {
-		"ico0": "❓",
-		"cat": "Basic",
-		"ing1": "Egg",
-		"ico1": "🥚",
-		"ing2": "Water",
-		"ico2": "🚰",
-		"ing3": "",
-		"ico3": "" 
-	},
-	"Flatbread": {
-		"ico0": "❓",
-		"cat": "I",
-		"ing1": "Flour",
-		"ico1": "❓",
-		"ing2": "Dough",
-		"ico2": "❓",
-		"ing3": "Water",
-		"ico3": "🚰" 
-	},
-	"Candy": {
-		"ico0": "🍬",
-		"cat": "I",
-		"ing1": "Sugar",
-		"ico1": "❓",
-		"ing2": "Sugar",
-		"ico2": "❓",
-		"ing3": "Sugar",
-		"ico3": "❓" 
-	},
-	"Batter": {
-		"ico0": "❓",
-		"cat": "I",
-		"ing1": "Flour",
-		"ico1": "❓",
-		"ing2": "Egg",
-		"ico2": "🥚",
-		"ing3": "Olive Oil",
-		"ico3": "❓" 
-	},
-	"Onion Rings": {
-		"ico0": "❓",
-		"cat": "I",
-		"ing1": "Onion",
-		"ico1": "🧅",
-		"ing2": "Olive Oil",
-		"ico2": "❓",
-		"ing3": "",
-		"ico3": "" 
-	},
-	"Cookie": {
-		"ico0": "❓",
-		"cat": "I",
-		"ing1": "Sugar",
-		"ico1": "❓",
-		"ing2": "Dough",
-		"ico2": "❓",
-		"ing3": "",
-		"ico3": "" 
-	},
-	"Donut": {
-		"ico0": "❓",
-		"cat": "I",
-		"ing1": "Dough",
-		"ico1": "❓",
-		"ing2": "Vanilla Icing",
-		"ico2": "❓",
-		"ing3": "",
-		"ico3": "",
-	},
-	"Dango": {
-		"ico0": "❓",
-		"cat": "I",
-		"ing1": "Rice",
-		"ico1": "🍚",
-		"ing2": "Syrup",
-		"ico2": "❓",
-		"ing3": "Dough",
-		"ico3": "❓" 
-	},
-	"French Fries": {
-		"ico0": "❓",
-		"cat": "I",
-		"ing1": "Potato",
-		"ico1": "🥔",
-		"ing2": "Spices",
-		"ico2": "🧂",
-		"ing3": "Olive Oil",
-		"ico3": "❓" 
-	},
-	"Fried Shrimp": {
-		"ico0": "🍤",
-		"cat": "I",
-		"ing1": "Flour",
-		"ico1": "❓",
-		"ing2": "Egg",
-		"ico2": "🥚",
-		"ing3": "Shrimp",
-		"ico3": "🦐" 
-	},
-	"Cheese": {
-		"ico0": "🧀",
-		"cat": "I",
-		"ing1": "Milk",
-		"ico1": "🥛",
-		"ing2": "Milk",
-		"ico2": "🥛",
-		"ing3": "Milk",
-		"ico3": "🥛" 
-	},
-	"Sushi Roll": {
-		"ico0": "❓",
-		"cat": "I",
-		"ing1": "Fish",
-		"ico1": "🐟",
-		"ing2": "Rice",
-		"ico2": "🍚",
-		"ing3": "Rice",
-		"ico3": "🍚" 
-	},
-	"Noodles": {
-		"ico0": "❓",
-		"cat": "I",
-		"ing1": "Egg",
-		"ico1": "🥚",
-		"ing2": "Dough",
-		"ico2": "❓",
-		"ing3": "",
-		"ico3": "" 
-	},
-	"Lemonade": {
-		"ico0": "❓",
-		"cat": "I",
-		"ing1": "Sugar",
-		"ico1": "❓",
-		"ing2": "Water",
-		"ico2": "🚰",
-		"ing3": "Lemon",
-		"ico3": "🍋" 
-	},
-	"Rice Pudding": {
-		"ico0": "❓",
-		"cat": "I",
-		"ing1": "Milk",
-		"ico1": "🥛",
-		"ing2": "Sugar",
-		"ico2": "❓",
-		"ing3": "Rice",
-		"ico3": "🍚" 
-	},
-	"Pretzel": {
-		"ico0": "🥨",
-		"cat": "I",
-		"ing1": "Spices",
-		"ico1": "🧂",
-		"ing2": "Dough",
-		"ico2": "❓",
-		"ing3": "",
-		"ico3": "" 
-	},
-	"Omelette": {
-		"ico0": "🍳",
-		"cat": "I",
-		"ing1": "Milk",
-		"ico1": "🥛",
-		"ing2": "Egg",
-		"ico2": "🥚",
-		"ing3": "Egg",
-		"ico3": "🥚" 
-	},
-	"Pie Crust": {
-		"ico0": "❓",
-		"cat": "I",
-		"ing1": "Water",
-		"ico1": "🚰",
-		"ing2": "Dough",
-		"ico2": "❓",
-		"ing3": "",
-		"ico3": "" 
-	},
-	"Cinnamon Rolls": {
-		"ico0": "❓",
-		"cat": "I",
-		"ing1": "Spices",
-		"ico1": "🧂",
-		"ing2": "Dough",
-		"ico2": "❓",
-		"ing3": "Vanilla Icing",
-		"ico3": "❓" 
-	}
+    "Boba Tea": {
+        "ico0": "❓",
+        "cat": "Exotic",
+        "ing1": "Milk",
+        "ico1": "🥛",
+        "ing2": "Tea",
+        "ico2": "🍵",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Boiled Egg": {
+        "ico0": "❓",
+        "cat": "Basic",
+        "ing1": "Egg",
+        "ico1": "🥚",
+        "ing2": "Water",
+        "ico2": "🚰",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Bread": {
+        "ico0": "🍞",
+        "cat": "I",
+        "ing1": "Flour",
+        "ico1": "❓",
+        "ing2": "Dough",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Broth": {
+        "ico0": "❓",
+        "cat": "Basic",
+        "ing1": "Meat",
+        "ico1": "🥩",
+        "ing2": "Water",
+        "ico2": "🚰",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Bucket of Fried Chicken": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Fried Chicken",
+        "ico1": "🍗",
+        "ing2": "Fried Chicken",
+        "ico2": "🍗",
+        "ing3": "Fried Chicken",
+        "ico3": "🍗"
+    },
+    "Burger": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Meat",
+        "ico1": "🥩",
+        "ing2": "Bread",
+        "ico2": "🍞",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Burrito": {
+        "ico0": "🌯",
+        "cat": "Exotic",
+        "ing1": "Lettuce",
+        "ico1": "🥬",
+        "ing2": "Tortilla",
+        "ico2": "❓",
+        "ing3": "Beans",
+        "ico3": "❓"
+    },
+    "Butter": {
+        "ico0": "🧈",
+        "cat": "Basic",
+        "ing1": "Milk",
+        "ico1": "🥛",
+        "ing2": "Milk",
+        "ico2": "🥛",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Cake": {
+        "ico0": "🎂",
+        "cat": "III",
+        "ing1": "Batter",
+        "ico1": "❓",
+        "ing2": "Batter",
+        "ico2": "❓",
+        "ing3": "Icing",
+        "ico3": "❓"
+    },
+    "Candy": {
+        "ico0": "🍬",
+        "cat": "I",
+        "ing1": "Sugar",
+        "ico1": "❓",
+        "ing2": "Sugar",
+        "ico2": "❓",
+        "ing3": "Sugar",
+        "ico3": "❓"
+    },
+    "Caramel": {
+        "ico0": "❓",
+        "cat": "Basic",
+        "ing1": "Sugar",
+        "ico1": "❓",
+        "ing2": "Sugar",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Caramel Apple": {
+        "ico0": "❓",
+        "cat": "Exotic",
+        "ing1": "Caramel",
+        "ico1": "❓",
+        "ing2": "Apple",
+        "ico2": "🍎",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Champagne": {
+        "ico0": "🍾",
+        "cat": "Exotic",
+        "ing1": "Sugar",
+        "ico1": "❓",
+        "ing2": "Wine",
+        "ico2": "🍷",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Cheese": {
+        "ico0": "🧀",
+        "cat": "I",
+        "ing1": "Milk",
+        "ico1": "🥛",
+        "ing2": "Milk",
+        "ico2": "🥛",
+        "ing3": "Milk",
+        "ico3": "🥛"
+    },
+    "Cheese Fondue": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Cheese",
+        "ico1": "🧀",
+        "ing2": "Cheese",
+        "ico2": "🧀",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Cheeseburger": {
+        "ico0": "❓",
+        "cat": "III",
+        "ing1": "Cheese",
+        "ico1": "🧀",
+        "ing2": "Burger",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Cherry Ice Pop": {
+        "ico0": "❓",
+        "cat": "Exotic",
+        "ing1": "Sugar",
+        "ico1": "❓",
+        "ing2": "Ice",
+        "ico2": "🧊",
+        "ing3": "Cherries",
+        "ico3": "🍒"
+    },
+    "Cherry Pie": {
+        "ico0": "🥧",
+        "cat": "Exotic",
+        "ing1": "Cherries",
+        "ico1": "🍒",
+        "ing2": "Pie Crust",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Cherry Shaved Ice": {
+        "ico0": "🍧",
+        "cat": "Exotic",
+        "ing1": "Ice",
+        "ico1": "🧊",
+        "ing2": "Syrup",
+        "ico2": "❓",
+        "ing3": "Cherries",
+        "ico3": "🍒"
+    },
+    "Cherry Soda": {
+        "ico0": "❓",
+        "cat": "Exotic",
+        "ing1": "Sugar",
+        "ico1": "❓",
+        "ing2": "Water",
+        "ico2": "🚰",
+        "ing3": "Cherries",
+        "ico3": "🍒"
+    },
+    "Chocolate Cake": {
+        "ico0": "❓",
+        "cat": "III",
+        "ing1": "Batter",
+        "ico1": "❓",
+        "ing2": "Batter",
+        "ico2": "❓",
+        "ing3": "Chocolate Icing",
+        "ico3": "❓"
+    },
+    "Chocolate Cupcake": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Batter",
+        "ico1": "❓",
+        "ing2": "Chocolate Icing",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Chocolate Donut": {
+        "ico0": "🍩",
+        "cat": "II",
+        "ing1": "Dough",
+        "ico1": "❓",
+        "ing2": "Chocolate Icing",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Chocolate Fondue": {
+        "ico0": "❓",
+        "cat": "I",
+        "ing1": "Milk",
+        "ico1": "🥛",
+        "ing2": "Chocolate",
+        "ico2": "🍫",
+        "ing3": "Chocolate",
+        "ico3": "🍫"
+    },
+    "Chocolate Ice Cream": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Chocolate",
+        "ico1": "🍫",
+        "ing2": "Vanilla Ice Cream",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Chocolate Ice Pop": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Sugar",
+        "ico1": "❓",
+        "ing2": "Chocolate",
+        "ico2": "🍫",
+        "ing3": "Ice",
+        "ico3": "🧊"
+    },
+    "Chocolate Icing": {
+        "ico0": "❓",
+        "cat": "I",
+        "ing1": "Milk",
+        "ico1": "🥛",
+        "ing2": "Sugar",
+        "ico2": "❓",
+        "ing3": "Chocolate",
+        "ico3": "🍫"
+    },
+    "Chocolate Pie": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Chocolate",
+        "ico1": "🍫",
+        "ing2": "Pie Crust",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Chocolate Shaved Ice": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Chocolate",
+        "ico1": "🍫",
+        "ing2": "Ice",
+        "ico2": "🧊",
+        "ing3": "Syrup",
+        "ico3": "❓"
+    },
+    "Chocolate-Chip Cookie": {
+        "ico0": "🍪",
+        "cat": "II",
+        "ing1": "Sugar",
+        "ico1": "❓",
+        "ing2": "Chocolate",
+        "ico2": "🍫",
+        "ing3": "Dough",
+        "ico3": "❓"
+    },
+    "Cinnamon Rolls": {
+        "ico0": "❓",
+        "cat": "I",
+        "ing1": "Spices",
+        "ico1": "🧂",
+        "ing2": "Dough",
+        "ico2": "❓",
+        "ing3": "Icing",
+        "ico3": "❓"
+    },
+    "Coffee": {
+        "ico0": "☕",
+        "cat": "Exotic",
+        "ing1": "Water",
+        "ico1": "🚰",
+        "ing2": "Beans",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Cookie": {
+        "ico0": "❓",
+        "cat": "I",
+        "ing1": "Sugar",
+        "ico1": "❓",
+        "ing2": "Dough",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Copypasta": {
+        "ico0": "⣿",
+        "cat": "Secret",
+        "ing1": "Spaghetti",
+        "ico1": "🍝",
+        "ing2": "Spaghetti",
+        "ico2": "🍝",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Cream Cheese": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Milk",
+        "ico1": "🥛",
+        "ing2": "Cheese",
+        "ico2": "🧀",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Croissant": {
+        "ico0": "🥐",
+        "cat": "II",
+        "ing1": "Butter",
+        "ico1": "🧈",
+        "ing2": "Butter",
+        "ico2": "🧈",
+        "ing3": "Dough",
+        "ico3": "❓"
+    },
+    "Curry": {
+        "ico0": "🍛",
+        "cat": "I",
+        "ing1": "Spices",
+        "ico1": "🧂",
+        "ing2": "Rice",
+        "ico2": "🍚",
+        "ing3": "Broth",
+        "ico3": "❓"
+    },
+    "Dango": {
+        "ico0": "🍡",
+        "cat": "I",
+        "ing1": "Rice",
+        "ico1": "🍚",
+        "ing2": "Syrup",
+        "ico2": "❓",
+        "ing3": "Dough",
+        "ico3": "❓"
+    },
+    "Deluxe Cheeseburger": {
+        "ico0": "🍔",
+        "cat": "III",
+        "ing1": "Tomato",
+        "ico1": "🍅",
+        "ing2": "Lettuce",
+        "ico2": "🥬",
+        "ing3": "Cheeseburger",
+        "ico3": "❓"
+    },
+    "Dirt": {
+        "ico0": "🟫",
+        "cat": "Secret",
+        "ing1": "Water",
+        "ico1": "🚰",
+        "ing2": "Mushroom",
+        "ico2": "🍄",
+        "ing3": "Water",
+        "ico3": "🚰"
+    },
+    "Donut": {
+        "ico0": "❓",
+        "cat": "I",
+        "ing1": "Dough",
+        "ico1": "❓",
+        "ing2": "Icing",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Dough": {
+        "ico0": "❓",
+        "cat": "Basic",
+        "ing1": "Flour",
+        "ico1": "❓",
+        "ing2": "Water",
+        "ico2": "🚰",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Dumpling": {
+        "ico0": "🥟",
+        "cat": "I",
+        "ing1": "Meat",
+        "ico1": "🥩",
+        "ing2": "Dough",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Egg Nigiri": {
+        "ico0": "❓",
+        "cat": "Basic",
+        "ing1": "Egg",
+        "ico1": "🥚",
+        "ing2": "Rice",
+        "ico2": "🍚",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Fish Nigiri": {
+        "ico0": "❓",
+        "cat": "Basic",
+        "ing1": "Fish",
+        "ico1": "🐟",
+        "ing2": "Rice",
+        "ico2": "🍚",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Flan": {
+        "ico0": "🍮",
+        "cat": "I",
+        "ing1": "Milk",
+        "ico1": "🥛",
+        "ing2": "Egg",
+        "ico2": "🥚",
+        "ing3": "Caramel",
+        "ico3": "❓"
+    },
+    "Flatbread": {
+        "ico0": "❓",
+        "cat": "I",
+        "ing1": "Flour",
+        "ico1": "❓",
+        "ing2": "Milk",
+        "ico2": "🥛",
+        "ing3": "Dough",
+        "ico3": "❓"
+    },
+    "French Fries": {
+        "ico0": "🍟",
+        "cat": "I",
+        "ing1": "Potato",
+        "ico1": "🥔",
+        "ing2": "Olive Oil",
+        "ico2": "❓",
+        "ing3": "Spices",
+        "ico3": "🧂"
+    },
+    "French Toast": {
+        "ico0": "❓",
+        "cat": "III",
+        "ing1": "Egg",
+        "ico1": "🥚",
+        "ing2": "Syrup",
+        "ico2": "❓",
+        "ing3": "Toast",
+        "ico3": "❓"
+    },
+    "Fried Chicken": {
+        "ico0": "🍗",
+        "cat": "I",
+        "ing1": "Flour",
+        "ico1": "❓",
+        "ing2": "Egg",
+        "ico2": "🥚",
+        "ing3": "Meat",
+        "ico3": "🥩"
+    },
+    "Fried Shrimp": {
+        "ico0": "🍤",
+        "cat": "I",
+        "ing1": "Flour",
+        "ico1": "❓",
+        "ing2": "Egg",
+        "ico2": "🥚",
+        "ing3": "Shrimp",
+        "ico3": "🦐"
+    },
+    "Ginger Ale": {
+        "ico0": "❓",
+        "cat": "Exotic",
+        "ing1": "Sugar",
+        "ico1": "❓",
+        "ing2": "Water",
+        "ico2": "🚰",
+        "ing3": "Ginger",
+        "ico3": "❓"
+    },
+    "Gingerbread Man": {
+        "ico0": "❓",
+        "cat": "Exotic",
+        "ing1": "Dough",
+        "ico1": "❓",
+        "ing2": "Icing",
+        "ico2": "❓",
+        "ing3": "Ginger",
+        "ico3": "❓"
+    },
+    "Guacamole": {
+        "ico0": "❓",
+        "cat": "Exotic",
+        "ing1": "Potato",
+        "ico1": "🥔",
+        "ing2": "Onion",
+        "ico2": "🧅",
+        "ing3": "Avocado",
+        "ico3": "🥑"
+    },
+    "Hot Dog": {
+        "ico0": "🌭",
+        "cat": "II",
+        "ing1": "Meat",
+        "ico1": "🥩",
+        "ing2": "Tomato Sauce",
+        "ico2": "❓",
+        "ing3": "Bread",
+        "ico3": "🍞"
+    },
+    "Ice": {
+        "ico0": "🧊",
+        "cat": "Basic",
+        "ing1": "Water",
+        "ico1": "🚰",
+        "ing2": "Water",
+        "ico2": "🚰",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Ice-Cold Lemonade": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Ice",
+        "ico1": "🧊",
+        "ing2": "Lemonade",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Iced Tea": {
+        "ico0": "❓",
+        "cat": "Exotic",
+        "ing1": "Ice",
+        "ico1": "🧊",
+        "ing2": "Tea",
+        "ico2": "🍵",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Icing": {
+        "ico0": "❓",
+        "cat": "Basic",
+        "ing1": "Milk",
+        "ico1": "🥛",
+        "ing2": "Sugar",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Latte": {
+        "ico0": "❓",
+        "cat": "Exotic",
+        "ing1": "Milk",
+        "ico1": "🥛",
+        "ing2": "Coffee",
+        "ico2": "☕",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Le Fishe au Chocolat": {
+        "ico0": "❓",
+        "cat": "Secret",
+        "ing1": "Fish",
+        "ico1": "🐟",
+        "ing2": "Chocolate",
+        "ico2": "🍫",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Lemon Cake": {
+        "ico0": "❓",
+        "cat": "III",
+        "ing1": "Batter",
+        "ico1": "❓",
+        "ing2": "Batter",
+        "ico2": "❓",
+        "ing3": "Lemon Icing",
+        "ico3": "❓"
+    },
+    "Lemon Cookie": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Sugar",
+        "ico1": "❓",
+        "ing2": "Lemon",
+        "ico2": "🍋",
+        "ing3": "Dough",
+        "ico3": "❓"
+    },
+    "Lemon Cupcake": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Batter",
+        "ico1": "❓",
+        "ing2": "Lemon Icing",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Lemon Ice Cream": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Lemon",
+        "ico1": "🍋",
+        "ing2": "Vanilla Ice Cream",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Lemon Ice Pop": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Sugar",
+        "ico1": "❓",
+        "ing2": "Lemon",
+        "ico2": "🍋",
+        "ing3": "Ice",
+        "ico3": "🧊"
+    },
+    "Lemon Icing": {
+        "ico0": "❓",
+        "cat": "I",
+        "ing1": "Milk",
+        "ico1": "🥛",
+        "ing2": "Sugar",
+        "ico2": "❓",
+        "ing3": "Lemon",
+        "ico3": "🍋"
+    },
+    "Lemon Pie": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Lemon",
+        "ico1": "🍋",
+        "ing2": "Pie Crust",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Lemon Shaved Ice": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Lemon",
+        "ico1": "🍋",
+        "ing2": "Ice",
+        "ico2": "🧊",
+        "ing3": "Syrup",
+        "ico3": "❓"
+    },
+    "Lemonade": {
+        "ico0": "❓",
+        "cat": "I",
+        "ing1": "Sugar",
+        "ico1": "❓",
+        "ing2": "Water",
+        "ico2": "🚰",
+        "ing3": "Lemon",
+        "ico3": "🍋"
+    },
+    "Mac and Cheese": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Cheese",
+        "ico1": "🧀",
+        "ing2": "Noodles",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Mocha": {
+        "ico0": "❓",
+        "cat": "Exotic",
+        "ing1": "Milk",
+        "ico1": "🥛",
+        "ing2": "Chocolate",
+        "ico2": "🍫",
+        "ing3": "Coffee",
+        "ico3": "☕"
+    },
+    "Mochi Donut": {
+        "ico0": "❓",
+        "cat": "I",
+        "ing1": "Dough",
+        "ico1": "❓",
+        "ing2": "Dough",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Mushroom Pizza": {
+        "ico0": "❓",
+        "cat": "Exotic",
+        "ing1": "Pizza",
+        "ico1": "❓",
+        "ing2": "Mushroom",
+        "ico2": "🍄",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Nachos": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Cheese",
+        "ico1": "🧀",
+        "ing2": "Tortilla Chips",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Noodles": {
+        "ico0": "❓",
+        "cat": "I",
+        "ing1": "Dough",
+        "ico1": "❓",
+        "ing2": "Egg",
+        "ico2": "🥚",
+        "ing3": "",
+        "ico3": ""
+    },
+    "NothingBurger": {
+        "ico0": "❓",
+        "cat": "Secret",
+        "ing1": "Bread",
+        "ico1": "🍞",
+        "ing2": "Bread",
+        "ico2": "🍞",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Nuclear Power Plant": {
+        "ico0": "🏭",
+        "cat": "Secret",
+        "ing1": "Uranium",
+        "ico1": "☢️",
+        "ing2": "Uranium",
+        "ico2": "☢️",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Oden": {
+        "ico0": "🍢",
+        "cat": "I",
+        "ing1": "Boiled Egg",
+        "ico1": "❓",
+        "ing2": "Meat",
+        "ico2": "🥩",
+        "ing3": "Fish",
+        "ico3": "🐟"
+    },
+    "Olive Oil": {
+        "ico0": "❓",
+        "cat": "Basic",
+        "ing1": "Olives",
+        "ico1": "❓",
+        "ing2": "Olives",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Olive Pizza": {
+        "ico0": "❓",
+        "cat": "III",
+        "ing1": "Olives",
+        "ico1": "❓",
+        "ing2": "Pizza",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Omelette": {
+        "ico0": "🍳",
+        "cat": "I",
+        "ing1": "Milk",
+        "ico1": "🥛",
+        "ing2": "Egg",
+        "ico2": "🥚",
+        "ing3": "Egg",
+        "ico3": "🥚"
+    },
+    "Onion Rings": {
+        "ico0": "❓",
+        "cat": "I",
+        "ing1": "Onion",
+        "ico1": "🧅",
+        "ing2": "Olive Oil",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Packed Ice": {
+        "ico0": "❓",
+        "cat": "Secret",
+        "ing1": "Ice",
+        "ico1": "🧊",
+        "ing2": "Ice",
+        "ico2": "🧊",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Pancakes": {
+        "ico0": "🥞",
+        "cat": "II",
+        "ing1": "Butter",
+        "ico1": "🧈",
+        "ing2": "Syrup",
+        "ico2": "❓",
+        "ing3": "Batter",
+        "ico3": "❓"
+    },
+    "Pasta and Meatballs": {
+        "ico0": "❓",
+        "cat": "III",
+        "ing1": "Meat",
+        "ico1": "🥩",
+        "ing2": "Spaghetti",
+        "ico2": "🍝",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Pepperoni Pizza": {
+        "ico0": "🍕",
+        "cat": "III",
+        "ing1": "Meat",
+        "ico1": "🥩",
+        "ing2": "Pizza",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Philadelphia Roll": {
+        "ico0": "❓",
+        "cat": "Exotic",
+        "ing1": "Avocado Roll",
+        "ico1": "❓",
+        "ing2": "Cream Cheese",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Pie Crust": {
+        "ico0": "❓",
+        "cat": "I",
+        "ing1": "Water",
+        "ico1": "🚰",
+        "ing2": "Dough",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Pineapple Pizza": {
+        "ico0": "❓",
+        "cat": "Exotic",
+        "ing1": "Pizza",
+        "ico1": "❓",
+        "ing2": "Pineapple",
+        "ico2": "🍍",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Pineapple Soda": {
+        "ico0": "❓",
+        "cat": "Exotic",
+        "ing1": "Sugar",
+        "ico1": "❓",
+        "ing2": "Water",
+        "ico2": "🚰",
+        "ing3": "Pineapple",
+        "ico3": "🍍"
+    },
+    "Pizza": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Tomato Sauce",
+        "ico1": "❓",
+        "ing2": "Cheese",
+        "ico2": "🧀",
+        "ing3": "Dough",
+        "ico3": "❓"
+    },
+    "Popcorn": {
+        "ico0": "🍿",
+        "cat": "Exotic",
+        "ing1": "Butter",
+        "ico1": "🧈",
+        "ing2": "Corn",
+        "ico2": "🌽",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Pretzel": {
+        "ico0": "🥨",
+        "cat": "I",
+        "ing1": "Milk",
+        "ico1": "🥛",
+        "ing2": "Dough",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Ramen": {
+        "ico0": "🍜",
+        "cat": "II",
+        "ing1": "Broth",
+        "ico1": "❓",
+        "ing2": "Noodles",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Rice Ball": {
+        "ico0": "🍙",
+        "cat": "I",
+        "ing1": "Rice",
+        "ico1": "🍚",
+        "ing2": "Rice",
+        "ico2": "🍚",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Rice Pudding": {
+        "ico0": "❓",
+        "cat": "I",
+        "ing1": "Milk",
+        "ico1": "🥛",
+        "ing2": "Sugar",
+        "ico2": "❓",
+        "ing3": "Rice",
+        "ico3": "🍚"
+    },
+    "Rum": {
+        "ico0": "❓",
+        "cat": "Exotic",
+        "ing1": "Sugar",
+        "ico1": "❓",
+        "ing2": "Water",
+        "ico2": "🚰",
+        "ing3": "Mushroom",
+        "ico3": "🍄"
+    },
+    "Sake": {
+        "ico0": "🍶",
+        "cat": "Exotic",
+        "ing1": "Rice",
+        "ico1": "🍚",
+        "ing2": "Water",
+        "ico2": "🚰",
+        "ing3": "Mushroom",
+        "ico3": "🍄"
+    },
+    "Salad": {
+        "ico0": "🥗",
+        "cat": "I",
+        "ing1": "Tomato",
+        "ico1": "🍅",
+        "ing2": "Lettuce",
+        "ico2": "🥬",
+        "ing3": "Olive Oil",
+        "ico3": "❓"
+    },
+    "Sashimi": {
+        "ico0": "❓",
+        "cat": "Basic",
+        "ing1": "Fish",
+        "ico1": "🐟",
+        "ing2": "Fish",
+        "ico2": "🐟",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Seawater": {
+        "ico0": "🌊",
+        "cat": "Secret",
+        "ing1": "Spices",
+        "ico1": "🧂",
+        "ing2": "Spices",
+        "ico2": "🧂",
+        "ing3": "Water",
+        "ico3": "🚰"
+    },
+    "Shrimp": {
+        "ico0": "🦐",
+        "cat": "Basic",
+        "ing1": "Fish",
+        "ico1": "🐟",
+        "ing2": "Water",
+        "ico2": "🚰",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Spaghetti": {
+        "ico0": "🍝",
+        "cat": "II",
+        "ing1": "Tomato Sauce",
+        "ico1": "❓",
+        "ing2": "Noodles",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Stuffed Flatbread": {
+        "ico0": "🥙",
+        "cat": "II",
+        "ing1": "Meat",
+        "ico1": "🥩",
+        "ing2": "Lettuce",
+        "ico2": "🥬",
+        "ing3": "Flatbread",
+        "ico3": "❓"
+    },
+    "Sushi Roll": {
+        "ico0": "❓",
+        "cat": "I",
+        "ing1": "Fish",
+        "ico1": "🐟",
+        "ing2": "Rice",
+        "ico2": "🍚",
+        "ing3": "Rice",
+        "ico3": "🍚"
+    },
+    "Syrup": {
+        "ico0": "❓",
+        "cat": "Basic",
+        "ing1": "Sugar",
+        "ico1": "❓",
+        "ing2": "Water",
+        "ico2": "🚰",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Taco": {
+        "ico0": "🌮",
+        "cat": "III",
+        "ing1": "Tomato Sauce",
+        "ico1": "❓",
+        "ing2": "Lettuce",
+        "ico2": "🥬",
+        "ing3": "Basic Taco",
+        "ico3": "❓"
+    },
+    "Tamale": {
+        "ico0": "❓",
+        "cat": "Exotic",
+        "ing1": "Meat",
+        "ico1": "🥩",
+        "ing2": "Corn",
+        "ico2": "🌽",
+        "ing3": "Broth",
+        "ico3": "❓"
+    },
+    "Tea": {
+        "ico0": "🍵",
+        "cat": "Exotic",
+        "ing1": "Water",
+        "ico1": "🚰",
+        "ing2": "Tea Leaves",
+        "ico2": "🍂",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Toast": {
+        "ico0": "❓",
+        "cat": "II",
+        "ing1": "Butter",
+        "ico1": "🧈",
+        "ing2": "Bread",
+        "ico2": "🍞",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Tomato Sauce": {
+        "ico0": "❓",
+        "cat": "Basic",
+        "ing1": "Tomato",
+        "ico1": "🍅",
+        "ing2": "Tomato",
+        "ico2": "🍅",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Tortilla": {
+        "ico0": "❓",
+        "cat": "Basic",
+        "ing1": "Flour",
+        "ico1": "❓",
+        "ing2": "Flour",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Tortilla Chips": {
+        "ico0": "❓",
+        "cat": "I",
+        "ing1": "Tortilla",
+        "ico1": "❓",
+        "ing2": "Tortilla",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Uranium": {
+        "ico0": "☢️",
+        "cat": "Secret",
+        "ing1": "Lemon Cake",
+        "ico1": "❓",
+        "ing2": "Lemon Cake",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Vanilla Cupcake": {
+        "ico0": "🧁",
+        "cat": "II",
+        "ing1": "Batter",
+        "ico1": "❓",
+        "ing2": "Icing",
+        "ico2": "❓",
+        "ing3": "",
+        "ico3": ""
+    },
+    "Vanilla Ice Cream": {
+        "ico0": "❓",
+        "cat": "I",
+        "ing1": "Milk",
+        "ico1": "🥛",
+        "ing2": "Sugar",
+        "ico2": "❓",
+        "ing3": "Ice",
+        "ico3": "🧊"
+    },
+    "Vodka": {
+        "ico0": "❓",
+        "cat": "Exotic",
+        "ing1": "Potato",
+        "ico1": "🥔",
+        "ing2": "Water",
+        "ico2": "🚰",
+        "ing3": "Mushroom",
+        "ico3": "🍄"
+    },
+    "Whiskey": {
+        "ico0": "🥃",
+        "cat": "Exotic",
+        "ing1": "Water",
+        "ico1": "🚰",
+        "ing2": "Mushroom",
+        "ico2": "🍄",
+        "ing3": "Corn",
+        "ico3": "🌽"
+    },
+    "Wine": {
+        "ico0": "🍷",
+        "cat": "Exotic",
+        "ing1": "Water",
+        "ico1": "🚰",
+        "ing2": "Mushroom",
+        "ico2": "🍄",
+        "ing3": "Grapes",
+        "ico3": "🍇"
+    }
 }

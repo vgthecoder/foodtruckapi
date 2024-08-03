@@ -17,3 +17,5 @@ Completion:
 * ❌ Level 3 : 6/12 
 * ❌ Exotic  : 3/31
 * ❌ Secret  : 2/??
+
+Contact me via the issues page.

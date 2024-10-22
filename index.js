@@ -98,10 +98,10 @@ app.listen(port, () => {
 });
 
 app.get('/', (req, res) => {
-	if (req.query.type == "a" || req.query.type == "A") {res.send(searchAll()); return;}
-	if (req.query.type == "e" || req.query.type == "E") {res.send(searchExact(req.query.query)); return;}
-	if (req.query.type == "i" || req.query.type == "I") {res.send(searchIngredient(req.query.query)); return;}
-	if (req.query.type == "l" || req.query.type == "L") {res.send(searchLevel(req.query.query)); return;}
-	if (req.query.type == "n" || req.query.type == "N") {res.send(searchName(req.query.query)); return;}
+	if ((req.query.type).toLowerCase() == "a") {res.send(searchAll()); return;}
+	if ((req.query.type).toLowerCase() == "e") {res.send(searchExact(req.query.query)); return;}
+	if ((req.query.type).toLowerCase() == "i") {res.send(searchIngredient(req.query.query)); return;}
+	if ((req.query.type).toLowerCase() == "l") {res.send(searchLevel(req.query.query)); return;}
+	if ((req.query.type).toLowerCase() == "n") {res.send(searchName(req.query.query)); return;}
 	res.send({err:"Invalid type or No type was specified"});
 });

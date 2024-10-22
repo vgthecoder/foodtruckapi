@@ -98,10 +98,24 @@ app.listen(port, () => {
 });
 
 app.get('/', (req, res) => {
-	if ((req.query.type).toLowerCase() == "a") {res.send(searchAll()); return;}
-	if ((req.query.type).toLowerCase() == "e") {res.send(searchExact(req.query.query)); return;}
-	if ((req.query.type).toLowerCase() == "i") {res.send(searchIngredient(req.query.query)); return;}
-	if ((req.query.type).toLowerCase() == "l") {res.send(searchLevel(req.query.query)); return;}
-	if ((req.query.type).toLowerCase() == "n") {res.send(searchName(req.query.query)); return;}
-	res.send({err:"Invalid type or No type was specified"});
+	switch (req.query.type) {
+		case "a":
+			res.send(searchAll());
+			break;
+		case "e":
+			searchExact(req.query.query);
+			break;
+		case "i":
+			res.send(searchIngredient(req.query.query));
+			break;
+		case "l":
+			res.send(searchLevel(req.query.query));
+			break;
+		case "n":
+			res.send(searchName(req.query.query));
+			break;
+		default:
+			res.send({err:"Invalid type or No type was specified"});
+			break;
+	}
 });

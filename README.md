@@ -3,7 +3,7 @@
 Problems:
 * Endpoint is down.
 
-Docs: https://vgcoder.w3spaces.com/projects/ft-api-docs.html
+Docs: docs.html
 
 Example (needs book.json update): 
 https://vgcoder.w3spaces.com/projects/lib.html

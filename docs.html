@@ -1,0 +1,91 @@
+<!Doctype HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<style>
+			body {
+				color: white;
+				background-color: #222;
+				font-family: Arial;
+			}
+			
+			h1, h2 {
+				margin-top: 4px;
+				margin-bottom: 4px;
+			}
+			
+			p {
+				margin-top: 2px;
+				margin-bottom: 2px;
+			}
+			
+			a {
+				color: lightblue;
+			}
+			
+			.code, code {
+				background-color: #111;
+				font-family: monospace;
+				font-size: 1.2em;
+			}
+			
+			td, table {
+				border: 1px solid white;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Food Truck Api: Docs</h1>
+		<h2>Endpoints</h2>
+		<p>The Food Truck Api has one endpoint, at <code>https://foodtruckapi.onrender.com/</code>.</p>
+		<p>To request items, you will need to use <code>?type</code> and <code>&query</code>.</p>
+		<p>This Api is <strong>NOT</strong> case-sensitive. (to be fixed) The API may take up to 50 seconds to spit something out.</p>
+		<table>
+			<tr><td>Type</td><td>Result</td></tr>
+			<tr><td>(A)ll Dishes</td><td>Will return all the dishes that are in the database.</tr>
+			<tr><td>(L)evel</td><td>Will return all the dishes that are in the level listed after the <code>&query=</code>.</tr>
+			<tr><td>(I)ingredient</td><td>Will return all the dishes that contain that ingredient listed after <code>&query=</code>.</tr>
+			<tr><td>(E)xact Name</td><td>Will return one dish who's exact name is listed after <code>&query=</code>.</tr>
+			<tr><td>(N)ame</td><td>Will return all the dishes who's name, or part of it, is listed after <code>&query=</code>.</tr>
+		</table>
+		<p>Example Request Url, to get all dishes that have dough in them:</p>
+		<code>https://foodtruckapi.onrender.com?type=i&query=dough</code>
+		<p>Example Request Url, for Figure 1</p>
+		<code>https://foodtruckapi.onrender.com/?type=e&query=croissant</code>
+		<h2>Responses</h2>
+		<p>Expected responses from the Food Truck Api are in json. Their structure is listed below. (Figure 1)</p>
+		<table>
+			<tr><td>Key</td><td>Description</td></tr>
+			<tr><td>err</td><td>Will return <code>""</code> if there are no errors. Will describe the error if there is one.</td></tr>
+			<tr><td>results</td><td>Will return the number of dishes found. Will return 0 if none were found.</td></tr>
+			<tr><td>dishes</td><td>Will return an array with the keys being the names of the dishes that were found.</td></tr>
+			<tr><td>> ico0</td><td>Will return a unicode emoji corresponding to that dish. Will show up as a ❓ if an emoji for it does not exsist in unicode.</td></tr>
+			<tr><td>> cat</td><td>Will return the catagory of the dish. It will be one of the following: <code>Basic I II III Exotic Secret</code></td></tr>
+			<tr><td>> ingX</td><td>Will return the name of the Xth ingredient in the dish. </td></tr>
+			<tr><td>> icoX</td><td>Will return a unicode emoji of the Xth ingredient in the dish. Will show up as a ❓ if an emoji for it does not exsist in unicode.</td></tr>
+		</table>
+		<p></p>
+		<div class="code">
+			// Figure 1<br>
+{<br>
+&nbsp;&nbsp;"err": "",<br>
+&nbsp;&nbsp;"results": 1,<br>
+&nbsp;&nbsp;"dishes": {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;"Croissant": {<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ico0": "🥐",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"cat": "II",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ing1": "Butter",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ico1": "🧈",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ing2": "Butter",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ico2": "🧈",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ing3": "Dough",<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"ico3": "❓"<br>
+&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+&nbsp;&nbsp;}<br>
+}<br>
+		</div>
+		<h2>Credits</h2>
+		<p>Thank you to man_o_valor/Mov for creating the <a href="https://discord.com/application-directory/1189308444109451295">Food Truck Discord Bot</a>.</p>
+		<p>Made by <a href="https://vgcoder.w3spaces.com/">VG_CODER</a>.</p>
+	</body>
+</html>

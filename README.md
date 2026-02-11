@@ -5,9 +5,6 @@ Problems:
 
 Docs: docs.html
 
-Example (needs book.json update): 
-https://vgcoder.w3spaces.com/projects/lib.html
-
 Completion: 
 * ✅ Basic   : 16/16
 * ✅ Level 1 : 33/33
